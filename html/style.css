@@ -409,14 +409,12 @@ input,button,select,textarea{
     color: #333;
  }
 .mega_menu{
-    background: #fff;
+    background: #b82529;
     position: absolute;
     top: 100%;
-    left: -197px;
-    width: 1045px;
+    width: 300px;
     z-index: 20;
-    text-align: left;
-    padding:47px 0 34px 53px;
+    text-align: center;
     opacity: 0;
     visibility: hidden;
 }
@@ -426,14 +424,12 @@ input,button,select,textarea{
 .mega:hover .mega_menu{
     opacity: 1;
     visibility: visible;
-    left:-84px;
 }
 .category_menu li{
     display: block;
     margin-bottom: 10px;
 }
 .catg{
-    width: 25%;
     float: left;
 }
 .style_div{
@@ -467,8 +463,8 @@ input,button,select,textarea{
     left: 6px;
 }
 .category_menu li a,.category_menu li a i{
-    font-size: 14px;
-    color: #464444;    
+    font-size: 16px;
+    color: #fff;    
 }
 .category_menu li a i{
     margin-right: 9px;
