@@ -355,7 +355,6 @@ input,button,select,textarea{
 }
 .homes{
     position: absolute;
-    left: -100px;
     opacity: 0;
     visibility: hidden;
     top: 100%;
@@ -365,7 +364,6 @@ input,button,select,textarea{
 }
 .main_menu li:hover .homes{
     opacity: 1;
-    left: 0;
     visibility: visible;
 }
 .homes li {
@@ -1862,7 +1860,7 @@ footer{
     overflow: hidden;
 }
 .about_info{
-    padding: 66px 0 78px;
+    padding: 66px 0 157px;
     border-bottom: 1px solid #ddd;
 }
 .about_list li{
@@ -3978,7 +3976,7 @@ label[for="login_check"]{
     }
     /* About us html */
     .about_info{
-        padding: 0px 0 18px;
+        padding: 157px 18px;
     }
     .about_us.feedback{
         padding-bottom: 120px;
