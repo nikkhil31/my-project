@@ -4361,6 +4361,56 @@ label[for="login_check"]{
         margin-left: 14px;
     }
 }
+
+
+
+.watsapp-bottom-left {
+    top: auto;
+    bottom: 0;
+    right: auto;
+    left: 0;
+    position: fixed;
+    z-index: 9999999;
+    display: block;
+}
+
+.watsapp-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    pointer-events: none;
+}
+
+
+.watsapp-botton {
+    border-radius: 50px;
+    margin-left: 20px;
+    height: 40px;
+    white-space: nowrap;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: green;
+    pointer-events: all;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.06), 0 2px 32px 0 rgba(0,0,0,.16);
+    margin-top: 24px;
+    margin-bottom: 24px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+}
+
+.qlwapp-text {
+    white-space: nowrap;
+    color: #fff;
+}
+
+.watsapp-icon {
+    margin: 0 12px 0 0;
+    color: #fff;
+}
 /*===================================================
                   End Responsive CSS
 ===================================================
